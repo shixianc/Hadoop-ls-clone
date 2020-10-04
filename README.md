@@ -1,10 +1,10 @@
 # Hadoop-LS-Clone
 Hadoop file system Clone with file listing and search functionalities. Developed in Python and xpath. 
 
-### Usage:  Clone hdfs dfs -ls <target_path>  => 
+### 1 Usage:  Clone hdfs dfs -ls <target_path>  => 
             Python source.py <hdfs_image_file> <target_path>
 
-### Apache Hadoop ls doc =>
+### 2 Apache Hadoop ls doc =>
             Options:
 
             -C: Display the paths of files and directories only.
@@ -33,11 +33,11 @@ Hadoop file system Clone with file listing and search functionalities. Developed
 
             Returns 0 on success and -1 on error.
 
-### Example output:
+### 3 Example output:
 <img src="https://github.com/shixianc/Hadoop-ls-clone/blob/master/screenshots/Screen%20Shot%202020-10-04%20at%204.08.06%20PM.png" width="500">
 <img src="https://github.com/shixianc/Hadoop-ls-clone/blob/master/screenshots/Screen%20Shot%202020-10-04%20at%204.08.15%20PM.png" width="500">
 
-### XML structure illustration
+### 4 XML structure illustration
 ls used xpath similar DFS algorithm to traverse the xml tree element and look for target path.
 <img src="https://github.com/shixianc/Hadoop-ls-clone/blob/master/screenshots/Screen%20Shot%202020-10-04%20at%204.12.36%20PM.png" width="500">
 (taken from medium.com)
