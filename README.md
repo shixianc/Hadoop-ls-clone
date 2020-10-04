@@ -4,7 +4,7 @@ Hadoop file system Clone with file listing and search functionalities. Developed
 ### 1 Usage:  Clone hdfs dfs -ls <target_path>  => 
             Python source.py <hdfs_image_file> <target_path>
 
-### 2 Apache Hadoop ls doc =>
+### 2 Apache Hadoop ls doc 
             Options:
 
             -C: Display the paths of files and directories only.
